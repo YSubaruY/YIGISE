@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Segoe UI';
+    flex-wrap: wrap;
+}
+/* navegacion */
+.container{
+    margin: auto;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+}
+.header .fondo{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.menu{
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+.menu p {
+    color: white;
+    position: absolute;
+    left: 75px;
+    top: 15px;
+}
+.logo {
+    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.items, .menu-derecha{
+    list-style: none;
+    float: left;
+    display:flex;
+    overflow: hidden;
+}
+.menu-derecha{
+    display: flex;
+}
+li a{
+    text-decoration: none;
+    color: rgb(153, 160, 167);
+}
+.items li, li a{
+    padding:0px 30px 0px 30px;
+    
+}
+.menu li a:hover{
+    color: aliceblue;
+}
+.menu-derecha input{
+    width: 0px;
+    height: 20px;
+    border-radius: 30px;
+    border: 0px;
+    top: 15px;
+    right: 130px;
+    font-size: 14px;
+    position: absolute;
+    background-color: black;
+    transition: all 0.6s ease;
+    outline: none;
+}
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;  
+}
+.search:hover input{
+    width: 240px;
+    background-color: white;
+}
+.search input:focus{
+    width: 240px;
+    background-color: white;
+}
+/* login */
+.ventana{
+    width: 350px;
+    height: 420px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    position: fixed;
+     transform: translate(-50%, -50%); 
+    box-sizing: border-box;
+    padding: 70px 30px;
+    display: none;
+    border-radius: 15px;
+    z-index: 1;
+}
+.login-logo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -70px;
+    left: calc(50% - 70px);
+}
+.ventana h1{
+    margin: 0;
+    padding: 0px 0 30px;
+    text-align: center;
+    font-size: 22px;
+}
+.ventana label{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    display: block;
+}
+.ventana input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.ventana input[type="text"], .ventana input[type="password"]{
+border: none;
+border-bottom: 1px solid white;
+background: transparent;
+outline: none;
+height: 40px;
+color: white;
+font-size: 16px;
+}
+.ventana input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: white;
+    background: rgb(7, 105, 197);
+    font-size: 18px;
+    border-radius: 60px;
+}
+.ventana a{
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 13px;
+    line-height: 20px;
+    display: block;
+    width: 250px;
+}
+.ventana a:hover{
+    color: white;
+}
+#cerrar{
+    position: absolute;
+    left: 325px;
+    top: 8px;
+}
+#mostrar, #mostrar1{
+    position: absolute;
+    left: 295px;
+    bottom: 155px;
+}
+#mostrar1{
+    display: none;
+}
+#mostra, #mostra1{
+    position: absolute;
+    left: 295px;
+    bottom: 155px;
+}
+#mostrar1{
+    display: none;
+}
+/* footer */
+footer{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(26, 26, 26);
+}
+.container-footer{
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1100px;
+}
+.box__footer{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+.box__footer .logof img{
+width: 80px;
+float: left;
+}
+.box__footer .logof p{
+    font-weight: 500;
+    color: rgb(175, 175, 175);
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 90px;
+}
+.box__footer .terminos{
+    max-width: 360px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: rgb(175, 175, 175);
+    font-size: 15px;
+}
+.box__footer h2{
+    margin-bottom: 20px;
+    color: rgb(224, 224, 224);
+    font-weight: 600;
+}
+.box__footer a{
+    margin-top: 10px;
+    color: rgb(151, 151, 151);
+    font-weight: 500;
+    text-decoration: none;
+}
+.box__footer a:hover{
+    color: white;
+}
+.box__footer a .fab{
+    font-size: 15px;
+}
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box__copyright p{
+    margin-top: 20px;
+    color: white;
+}
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(136, 136, 136);
+}
