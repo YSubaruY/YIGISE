@@ -13,40 +13,84 @@
     z-index: 1;
     font-family: 'Segoe UI';
 }
-section{
+.container p{
+    margin-top: 15px;
+}
+/* section{
     width: 100%;
     padding-top: 120px;
     height: 1250px;
+} */
+/*Publicidad*/
+.mas{
+    padding-top: 190px;
+    margin-left: 0px;
+    width: 20%;
+   color: white;
+    float: left;
+    text-decoration: none;
+}
+.mas ul{
+    list-style: none;
+}
+.mas ul li a:hover{
+    color: white;
 }
 /*CSS DE LOS PRODUCTOS*/
  img.imagen {
- margin-left:auto;
- margin-right:auto;
+ margin: auto;
  display:block;
  padding-top:5px;
+ width: 190px;
+height: 150px;
  }
  
  div.etiquetas {
  color:black;
+ font-family: 'Segoe UI';
  text-align:center;
- width:222px;
- height:22px;
+ margin-top: 10px;
  }
  
- div.stock {padding-left:0px;}
- 
+ div.stock {
+    padding-left:0px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    padding-top: 10px;
+    line-height: 20px;
+    color: black;
+}
+.stock p a{
+    padding-left: 130px;
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(48, 48, 48);
+    font-weight: bolder;
+}
  input.uniBien {
  position:relative;
- margin-left:45px;
- 
- 
+ outline: none;
+ border: none;
+ border-bottom: 1px solid rgb(44, 44, 44);
  background:white;
  }
  input.uniMal {
- margin-left:52px;
  background:red;
+ outline: none;
+ border: none;
+ border-bottom: 1px solid rgb(44, 44, 44);
  }
- 
+ input.btn-card{
+    margin-top: 20px;
+    border: none;
+    margin-left: 25%;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-weight: bolder;
+    outline: none;
+ }
  div.divsNo {display:none;}
  div.divsSi {display:yes;}
  
@@ -55,6 +99,7 @@ section{
  top:-145px;
  margin-left:auto;
  margin-right:auto;
+ height: 1400px;
  display:block;
  width:1000px;
  background: #000 url("https://www.teahub.io/photos/full/12-128097_download-the-galaxy-s8-wallpapers-here-samsung-galaxy.png") no-repeat;
@@ -74,90 +119,206 @@ section{
  div.menuSi{height:1040px;}
  
 /*Divs para colocar cada producto en su sitio*/
+.pproductos{
+    width: 100%;  
+}
+.pproductos ul{
+    display: flex;
+    list-style: none;
+}
+.pproductos .card{
+    margin: 90px 30px 10px 8px;
+    width: 260px;
+    height: 320px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+/* .imagen{
+    margin-left: 10%;
+    width: 190px;
+    height: 150px;
+    position: relative;
+    top: 10px;
+    margin-left: 35px;
+} */
+.pproductos .card:hover{
+    transform : scale(1.06);
+    transition: all 0.3s ease;
+}
+
  #div1{
  position:absolute;
  top:68px;
  left:-72px;
  width:221px;
- height:217px;
+ /* height:217px; */
+ height: 320px;
+ border-radius: 30px;
+    background-color: rgb(255, 255, 255);
  }
- 
+ #div1:hover{
+    transform : scale(1.06);
+    transition: all 0.3s ease;
+}
  #div2{
     position:absolute;
  top:68px;
  left:246px;
  width:221px;
- height:217px;
+ height: 320px;
+ border-radius: 30px;
+    background-color: rgb(255, 255, 255);
  }
- 
+ #div2:hover{
+    transform : scale(1.06);
+    transition: all 0.3s ease;
+}
  #div3{
  position:absolute;
  top:68px;
  left:579px;
  width:221px;
- height:217px;
+ height: 320px;
+ border-radius: 30px;
+    background-color: rgb(255, 255, 255);
  }
- 
+ #div3:hover{
+    transform : scale(1.06);
+    transition: all 0.3s ease;
+}
  #div4{
  position:absolute;
- top:398px;
+ top:423px;
  left:-72px;
  width:221px;
- height:217px;
+ height: 320px;
+ border-radius: 30px;
+    background-color: rgb(255, 255, 255);
  }
- 
+ #div4:hover{
+    transform : scale(1.06);
+    transition: all 0.3s ease;
+}
  #div5{
  position:absolute;
- top:398px;
+ top:423px;
  left:246px;
  width:221px;
- height:217px;
+ height: 320px;
+ border-radius: 30px;
+    background-color: rgb(255, 255, 255);
  }
- 
+ #div5:hover{
+    transform : scale(1.06);
+    transition: all 0.3s ease;
+}
  #div6{
  position:absolute;
- top:398px;
+ top:423px;
  left:579px;
  width:221px;
- height:217px;
+ height: 320px;
+ border-radius: 30px;
+    background-color: rgb(255, 255, 255);
  }
- 
+ #div6:hover{
+    transform : scale(1.06);
+    transition: all 0.3s ease;
+}
  #div7{
  position:absolute;
- top:718px;
+ top:778px;
  left:-72px;
  width:221px;
- height:217px;
+ height: 320px;
+ border-radius: 30px;
+    background-color: rgb(255, 255, 255);
  }
- 
+ #div7:hover{
+    transform : scale(1.06);
+    transition: all 0.3s ease;
+}
  #div8{
  position:absolute;
- top:718px;
+ top:778px;
  left:246px;
  width:221px;
- height:217px;
+ height: 320px;
+ border-radius: 30px;
+    background-color: rgb(255, 255, 255);
  }
- 
+ #div8:hover{
+    transform : scale(1.06);
+    transition: all 0.3s ease;
+}
  #div9{
  position:absolute;
- top:718px;
+ top:778px;
  left:579px;
  width:221px;
- height:217px;
+ height: 320px;
+ border-radius: 30px;
+    background-color: rgb(255, 255, 255);
  }
- 
+ #div9:hover{
+    transform : scale(1.06);
+    transition: all 0.3s ease;
+}
  
  
 /*CSS DEL CARRITO DE LA COMPRA*/
  /*Div para los botones*/
  #divbotones{
  position:relative;
- top:1042px;
+ top:1132px;
  left:11px;
  width:440px;
  height:23px;
+}
+#botonTotal{
+    background-color: rgb(29, 150, 167);
+    border-radius: 30px 10px 10px 30px;
+    border:none;
+    color: white;
+    font-family: 'Segoe UI';
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
  }
- 
+ #botonDatos{
+    background-color: rgb(122, 29, 65);
+    border-radius: 5px 5px 5px 5px;
+    border:none;
+    color: white;
+    font-family: 'Segoe UI';
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+ }
+ #botonPago{
+    background-color: rgb(204, 77, 18);
+    border-radius: 5px 5px 5px 5px;
+    border:none;
+    color: white;
+    font-family: 'Segoe UI';
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+ }
+ #botonConfirmar{
+    background-color: rgb(17, 24, 82);
+    border-radius: 10px 30px 30px 10px;
+    border:none;
+    color: white;
+    font-family: 'Segoe UI';
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+ }
  #tablaTotal {
  margin: 0px 0px 0px 0px;
  }
@@ -188,7 +349,7 @@ section{
  /*Divs para la zona de compras*/
  div.divZonaCompraSi{
  position:relative;
- top:1052px;
+ top:1152px;
  padding:0px 11px 20px 11px;
  display:yes;
  width:693px;
@@ -280,6 +441,4 @@ input.logoTarjetas {
  bottom:6px;
  position: relative;
 } 
- 
- 
  
