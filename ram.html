@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="js/main.js"></script>
-    
-    <!--lee codigo css-->
+    <!-- <script src="js/prueba.js"></script> -->
     <link rel="stylesheet" href="style/general.css">
-    <link rel="stylesheet" href="style/nosotros.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/datos.css">
+
     <title>YIGISE</title>
 </head>
 <body>
@@ -93,73 +94,53 @@
             <a href="javascript:cancelar()">Cancelar</a>
         </form>
     </div>
-        <section>
-            <div class="nosotros">
-                <div class="datos">
-                    <h1>Quienes Somos</h1><br>
-                    <p>Somos una empresa dedicada a la venta de productos y servicios informáticos con los más altos estándares de calidad a precios muy bajos, nuestra empresa iniciada en el año 2006 nos ha dado hasta ahora más de 14 años de experiencia en el mercado peruano con lo cual podemos contar con una atención al cliente muy personalizada; atendiendo las necesidades de los peruanos, ofreciéndoles acceso a tecnología de punta, contamos con las mejores marcas del mercado internacional brindado de esta manera un producto y servicio de excelencia y con garantía real.</p>
-                </div>
-                    <div class="conjunto">
-                        <div class="card">
-                            <img src="img/productos/user1.png" >
-                            <div class="text">
-                                <p>Christopher Yimmy
-                                    Cueva palomino</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="img/productos/user3.png">
-                            <div class="text">
-                                <p>Gianela Isabel
-                                    Rivera Tarazona</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="img/productos/user2.png"> 
-                            <div class="text">
-                                <p>Sebastian Rogelio
-                                    Onofre Santillan</p>
-                            </div>
-                        </div>
+    <main>
+        <div class="mas">
+    <ul>
+        <li><a href="productos.html">Productos</a></li>
+        <ul>
+            <li><a href="antivirus.html">Antivirus</a></li>
+            <li><a href="discos.html">Discos</a></li>
+            <li><a href="software.html">Software</a></li>
+            <li><a href="ram.html">Ram</a></li>
+            <li><a href="Router.html">Router</a></li>
+            <li><a href="tarjeta.html">Tarjeta Gráfica</a></li>
+            <li><a href="computadora.html">Computadora</a></li>
+            <li><a href="mouse.html">Mouse</a></li>
+            <li><a href="arcportatil.html">Articulos</a></li>
+            <li><a href="portatil.html">Laptop</a></li>
+        </ul>
+        <li><a href="preguntas.html">Preguntas</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+    </ul>
+        </div>
+        <div class="restos">
+            <p id="buscar">RAM</p>
+           <div class="date" name="DIVS">
+            <div class="fotoss">
+                <img src="img/productos/7m.png" alt="">
+                <span>HyperX fury DDR4</span>
+            </div>    
+                <div class="ddatos">
+                    <div class="descrip">
+                        <p>Descipcion</p><br>
+                        <p class="desss"> impulsa enormemente el rendimiento de juegos, edición de vídeo y renderización con velocidades de hasta 3733 MHz. Esta económica actualización está disponible en velocidades de 2400 MHz-3733 MHz, latencias de CL15–19, capacidades de módulo único de 4 GB-32 GB y capacidades de kit de 16 GB-128 GB.</p><br>
                     </div>
-            </div>
-            <!-- <div id="todo" class="todoNo">
-                
-                <div id="menu" class="menuNo">
-
-                <div style= "margin: 320px 0 0  0px">
-                    <h1>Quienes Somos</h1><br>
-                    <p>
-                    Somos una empresa dedicada a la venta de productos y servicios informáticos con los más altos estándares de calidad a precios muy bajos, nuestra empresa iniciada en el año 2006 nos ha dado hasta ahora más de 14 años de experiencia en el mercado peruano con lo cual podemos contar con una atención al cliente muy personalizada; atendiendo las necesidades de los peruanos, ofreciéndoles acceso a tecnología de punta, contamos con las mejores marcas del mercado internacional brindado de esta manera un producto y servicio de excelencia y con garantía real.
-                    </p>
+                    <p class="stockp">stock 3</p><br>
+                    <p class="precioss" >Precio 21€</p>
                 </div>
-<div style= "margin: 20px 0 0 58px">                
-    <div style= "margin: 58px 0 0 -94px">                
-    <img src="img/productos/user1.png" width="192" height="252">
-    </div>  
-    <div style= "margin: -255.95px 0 0 214px">                
-    <img src="img/productos/user3.png" width="192" height="252">
-    </div>
-    <div style= "margin: -255.95px 0 0 524px">                
-    <img src="img/productos/user2.png" width="192" height="252">
-    </div>    
-    <div style= "margin: 10px 0 0 -94px">                
-    <h3>Christopher Yimmy</h3>
-    <h4>Cueva palomino</h4>
-    </div>          
-    <div style= "margin: -38px 0 0 214px">                 
-    <h3>Gianela Isabel</h3>
-    <h4>Rivera Tarazona</h4>
-    </div>    
-    <div style= "margin: -38px 0 0 520px">               
-    <h3>Sebastian Rogelio</h3>
-    <h4>Onofre Santillan</h4>
-    </div>  
-</div>    
-                </div> -->
-        </section>
-    </div>
-<div style= "margin: -25px 0 0 0px">
+           </div>
+        </div>
+        <div class="publicidad">
+            <aside>
+                    <ul>
+                        <li><a href="https://www.doctorpcperu.com.pe/" target="_blank"><img src="img/p1.jpg" alt=""></a></li>
+                        <li><a href="http://edteam.com" target="_blank"><img src="img/p2.jpg" alt=""></a></li>
+                        <li><a href="http://www.unfv.edu.pe/"><img src="img/p3.jpg" alt=""></a></li>
+                    </ul>
+            </aside>
+        </div>
+    </main>
     <footer>
         <div class="container-footer">
             <div class="box__footer">
@@ -194,6 +175,5 @@
             </p>
         </div>
     </footer>
-</div>
 </body>
 </html>
