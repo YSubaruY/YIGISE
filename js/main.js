@@ -71,3 +71,6 @@ var consulta = function(){
     }
     
 }
+function enviar() {
+    alert("Su comentario ha sido enviado...");
+}   

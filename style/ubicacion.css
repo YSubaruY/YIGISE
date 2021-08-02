@@ -1,0 +1,23 @@
+section{
+    height: 760px;
+}
+.fond{
+    
+    width: 90%;
+    margin: auto;
+    height: 700px;
+    background: #000 url("https://www.teahub.io/photos/full/12-128097_download-the-galaxy-s8-wallpapers-here-samsung-galaxy.png") no-repeat;
+}
+.mapa{
+    width: 50%;
+    height: 550px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: auto;
+}
+.dat{
+    padding: 0;
+    color: white;
+    font-size: 60px;
+    margin-left: 350px;
+}

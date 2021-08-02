@@ -1,0 +1,85 @@
+ .date{
+     flex-wrap: wrap;
+    margin-top: 0;
+    width: 90%;
+    border-radius: 30px;
+    height: 400px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+}
+#buscar{
+   padding-top: 0;
+   margin: 0;
+   padding-left: 35px;
+font-size: 80px;
+color: white;
+}
+.restos{
+    width: 60%;
+    margin: auto;
+    height: 800px;
+    padding-top: 0;
+    float: left;
+    background-color: rgb(14, 14, 14);
+}
+.fotoss img{
+    margin-top: 20px;
+    width: 280px;
+    height: 290px;
+    margin-left: 20px;
+    
+}
+.fotoss span{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Segoe UI';
+    /* position: relative; */
+    /* padding-top: 310px; */
+    margin-left: 30px;
+    text-align: center;
+    font-style: italic;
+}
+.ddatos .descrip p{
+    font-size: 25px;
+    text-align: right;
+    margin-right: 30px;
+    font-weight: inherit;
+    font-style: oblique;
+    margin-bottom: 0px;
+}
+.ddatos p.desss{
+  
+    margin-top: 0px;
+    width: 320px;
+    height: 150px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.ddatos .stockp{
+    font-size: 20px;
+    text-align: center;
+}
+.ddatos .precioss{
+    margin-left: 25%;
+    margin-top: 00px;
+    font-size: 25px;
+    width: 170px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 20px;
+    color: rgb(167, 102, 5);
+    border: 3px solid rgb(167, 102, 5);
+    font-style: italic;
+}
+.fotoss{
+    width: 365px;
+    height: 400px;
+    display: block;
+}
+.ddatos{
+    width: 363px;
+    height: 400px;
+    float: right;
+}

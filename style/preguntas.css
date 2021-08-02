@@ -1,0 +1,66 @@
+.all{
+    width: 70%;
+    margin: auto;
+    height: 350px;
+    background-color: rgb(99, 99, 99);
+}
+.preguntas h3{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    font-style: oblique;
+}
+.form{
+    margin-top: 0;
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+    width: 60%;
+    height: 180px;
+    margin: auto;
+    padding: 20px;
+}
+.form label{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+}
+.form input{
+    width: 35%;
+    margin-bottom: 20px;
+}
+.form input[type="text"]{
+    margin-right: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: white;
+    font-size: 16px;
+    }
+.form input.coment[type="text"]{
+    color: white;
+    background: (26, 26, 26);
+}
+input.coment{
+    width: 60%;
+    height: 50px;
+}
+.form input[type="button"]{
+    background-color: rgb(11, 78, 155);
+    border: 2px solid rgb(3, 28, 75);
+    height: 50px;
+    justify-content: center;
+    margin-left: 32%;
+    margin-top: 5%;
+    cursor: pointer;
+    font-family: 'Consolas';
+    font-weight: bolder;
+    font-size: 20px;
+    color: ivory;
+}
+.form input[type="button"]:hover{
+    background-color: rgb(3, 28, 75);
+}

@@ -9,6 +9,7 @@
  var imgGrandes = ["img/productos/1.png", "img/productos/2.png", "img/productos/3.png", "img/productos/4.png", "img/productos/5.png", "img/productos/6.png", "img/productos/7.png", "img/productos/8.png", "img/productos/9.png"];
  var imgPeque = ["img/productos/1m.png", "img/productos/2m.png", "img/productos/3m.png", "img/productos/4m.png", "img/productos/5m.png", "img/productos/6m.png", "img/productos/7m.png", "img/productos/8m.png", "img/productos/9m.png"];
  var precios = [33, 169, 36, 360, 11, 540, 21, 66, 25];
+ const ref =["antivirus", "tarjeta", "discos", "computadora", "arcportatil", "portatil", "ram", "Router", "mouse"];
  var stock = [5, 2, 8, 3, 10, 4, 3, 1, 2];
  var precioTransporte = [6, 12, 20, "gratis"];
  var IVA = 0.18;
@@ -23,7 +24,7 @@
  //Se cargan los productos dentro del HTML de forna dinamica haciendo uso de los datos de la base de datos, como si de un PHP se tratase:
  var DIVS = document.getElementsByName("DIVS");
  for (i in productos){
- DIVS[i].innerHTML = '<a id="imgG'+i+'" href="' +imgGrandes[i]+ '"><img id="imgP'+i+'" class="imagen" src="' +imgPeque[i]+ '"></a><div class="etiquetas"><b><span id="pro'+i+'">' +productos[i]+ '</span>: <span id="pre'+i+'">' +precios[i]+ '€</span></b></div><div class="stock">Hay en stock <span id="uni'+i+'">' +stock[i]+ '</span> unidades,<br/>¿Cuantas quiere?: <input class="uniBien" type="number" id="uniUser'+i+'" name="uniUser" value="0" size="4" /></div>';
+    DIVS[i].innerHTML = '<a id="imgG'+i+'" href="' +imgGrandes[i]+ '"><img id="imgP'+i+'" class="imagen" src="' +imgPeque[i]+ '"></a><div class="etiquetas"><b><span id="pro'+i+'">' +productos[i]+ '</span></span></b></div><div class="stock">stock <span id="uni'+i+'">' +stock[i]+ '</span> <p><a href="'+ref[i]+'.html">Leer más</a></p> <input class="uniBien" type="number" id="uniUser'+i+'" name="uniUser" value="0" size="4" /><input class="btn-card" type="label" value="Precio '+precios[i]+'€"/></div>';
  }
  
  
@@ -487,6 +488,6 @@
  
 //FUNCION DE VALIDAR DATOS PAGO y ENVIAR DATOS
  function validaDatosPagoYEnviaCarro(elEvento) {
- alert("Gracias por su compra, en 24 horas recivira su pedido\nAhora sera redirigido a la pagina de inicio.");
+ alert("Gracias por su compra, en 24 horas recibira su pedido\nAhora sera redirigido a la pagina de inicio.");
  window.location.reload()
  }

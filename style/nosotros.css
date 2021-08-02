@@ -1,0 +1,74 @@
+section{
+    width: 100%;
+    height: 650px;
+}
+section .nosotros{
+    background:url("https://www.teahub.io/photos/full/12-128097_download-the-galaxy-s8-wallpapers-here-samsung-galaxy.png") no-repeat;
+    width:1000px;
+    height: 600px;
+    margin: auto;
+}
+.nosotros .conjunto{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+}
+.nosotros .card{
+    align-items: center;
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: 20px;
+    width: 192px;
+    height: 262px;
+    overflow: hidden;
+    height: auto;
+    background-color: rgb(34, 33, 33);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.nosotros .conjunto .card img{
+    border-radius: 30px;
+    width:192px; 
+    height:262px;
+}
+.nosotros .conjunto .card img:hover{
+    justify-content: center;
+    transform : scale(1.3);
+    background-color: rgba(0, 0, 0, 0.884);
+    filter: brightness(0.4);
+    transition: all 2s ease;
+}
+.conjunto .card .text{
+    text-align: center;
+    padding: 0px 10px;
+    position: absolute;
+    font-style: oblique;
+    font-weight: bold;
+    width: 170px;
+    margin-bottom: 0;
+    height: -50px;
+    font-family: 'Segoe UI';
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    opacity: 0;
+}
+ .card:hover .text{
+    opacity: 1;
+}
+.datos h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.datos p{
+    width: 90%;
+    color: rgb(252, 252, 252);
+    font-family: 'Segoe UI';
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: justify;
+}

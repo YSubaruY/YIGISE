@@ -1,0 +1,238 @@
+body{
+    background-color: blue;
+}
+.pproductos{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(37, 37, 37);
+}
+.pproductos ul{
+    display: flex;
+    list-style: none;
+}
+.pproductos .card{
+    margin: 90px 30px 10px 8px;
+    width: 260px;
+    height: 320px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.imagen{
+    margin-left: 10%;
+    width: 190px;
+    height: 150px;
+    position: relative;
+    top: 10px;
+    margin-left: 35px;
+}
+.pproductos .card:hover{
+    transform : scale(1.06);
+    transition: all 0.3s ease;
+}
+.etiquetas{
+    margin-top: 0px;
+    text-align: center;
+}
+.etiquetas span{
+    font-family: 'Segoe UI';
+    color: rgb(17, 17, 17);
+}
+.stock{
+font-family: 'Segoe UI';
+padding-top: 10px;
+text-align: center;
+line-height: 20px;
+
+}
+.btn-card{
+    border: 3px solid rgb(73, 70, 70);
+    color: rgb(73, 70, 70);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+    height: 35px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+.btn-card:hover{
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 70, 70);
+    padding-top: 0px;
+}
+.stock p a{
+    padding-left: 150px;
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(48, 48, 48);
+    font-weight: bolder;
+}
+.uniBien{
+    
+    position: relative;
+    top: -10px;
+    outline: none;
+    border: none;
+border-bottom: 1.5px solid rgb(110, 110, 110);
+background: transparent;
+
+}
+
+/*complejo xd*/
+/*manipulacion*/
+
+#todo{
+    
+    top:-145px;
+    margin-left:auto;
+    margin-right:auto;
+    /* display:block; */
+    width:1000px;
+    /* background: #000 url("https://www.teahub.io/photos/full/12-128097_download-the-galaxy-s8-wallpapers-here-samsung-galaxy.png") no-repeat; */
+    
+   }
+    div.todoNo{height:980px;}
+    div.todoSi{height:980px;}
+    
+    
+    #menu{
+    
+    top:-60px;
+    left:143px;
+    width:715px;
+   }
+    div.menuNo{height:775px;}
+    div.menuSi{height:1040px;}
+    
+
+/*CSS DEL CARRITO DE LA COMPRA*/
+ /*Div para los botones*/
+ #divbotones{
+    left:11px;
+    width:440px;
+    height:23px;
+    }
+    
+    #tablaTotal {
+    margin: 0px 0px 0px 0px;
+    }
+    td.pro {
+    width:300px;
+    text-align:center;
+    background:#1a6c68;
+    }
+    td.uni {
+    width:150px;
+    text-align:center;
+    background:#1a6c68;
+    }
+    td.preUni {
+    width:150px;
+    text-align:center;
+    background:#1a6c68;
+    }
+    td.preTotal {
+    width:150px;
+    text-align:center;
+    background:#1a6c68;
+    }
+    tr.proCarrito {
+    text-align:center;
+    }
+    
+    /*Divs para la zona de compras*/
+    div.divZonaCompraSi{
+    position:relative;
+    top:1052px;
+    padding:0px 11px 20px 11px;
+    display:yes;
+    width:693px;
+    height:auto;
+    
+    background:#3c8c89;
+    }
+    div.divZonaCompraNo{
+    position:relative;
+    top:742px;
+    padding:0px 11px 20px 11px;
+    display:none;
+    width:693px;
+    height:385px;
+    
+    background:#3c8c89;
+    }
+    
+    /*Divs del carrito y formularios*/
+    #divTotal{
+    background:#378582;
+    }
+    #divDatos{
+    background:#378582;
+    }
+    
+    #divPago{
+    height: 150px;
+    padding-left:10px;
+    background:#378582;
+    }
+    
+    #divDatosPersonales0 {
+    position:relative;
+    left:0px;
+    padding:0px 0px 0px 10px;
+    width:440px;
+    height:140px;
+    }
+    
+    #divDatosPersonales1 {
+    position:relative;
+    width:230px;
+    height:130px;
+    }
+    
+    #divDatosPersonales2 {
+    position:relative;
+    top:-130px;
+    left:260px;
+    width:200px;
+    height:130px;
+    }
+    
+    #divDomicilio{
+    padding:0px 0px 0px 10px;
+    }
+    
+    
+    
+    
+    
+   /*CSS VALIDACION*/ 
+    input.textBien {background:#d1fbe1;}
+    input.textMal {background:pink;}
+    select.textBien {background:#d1fbe1;}
+    select.textMal {background:pink;} 
+    span.alertTipoDeTarjeta {color:red;}
+    
+    
+    
+   /*Metodos de pago*/ 
+   #metodosDePago{
+    position:relative;
+    top:8px;
+    width:128px;
+    height:60px;
+   }
+    
+   #divNumeroTarjeta{
+    position:relative;
+    top:-52px;
+    left:140px;
+    width:180px;
+    height:70px;
+   }
+    
+   input.logoTarjetas { 
+    bottom:6px;
+    position: relative;
+   } 
+    
